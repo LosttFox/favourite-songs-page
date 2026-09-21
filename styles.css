@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'ComicSansMS3';
+  src: url('./ComicSansMS3.ttf');
+  font-display: swap;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'ComicSansMS3', 'Courier New';
+    color: #f89adc;
+    background-color: #060230;
+}
+
+.outer {
+    display: block;
+    width: 100%;
+}
+
+.inner {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.play-link {
+    font-size: 30px;
+    text-decoration:overline;
+    color: #7a1fce;
+}
+
+.play-link:hover {
+    text-decoration: underline;
+    color: #ec36dd;
+}
+
+h1 {
+    padding: 20px 0 20px 0;
+    margin: 0px;
+    color: transparent;
+    background:#f89adc;
+    background-clip: text;
+}
+
+h1:hover {
+    background: linear-gradient(#fbff12, #b61616);
+    background-clip: text;
+}
+
+h1:active {
+    background: none;
+    background-image: url(./cooltext.gif);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+h3 {
+    margin: 1px;
+}
